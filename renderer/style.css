@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  font-family: 'Inter', system-ui, sans-serif;
+  background: #f5f7fa;
+  color: #222;
+}
+
+.container {
+  width: 95%;
+  max-width: 580px;
+  margin: 40px auto 0;
+  background: #fff;
+  padding: 2.2rem 2.5rem 1.2rem 2.5rem;
+  border-radius: 16px;
+  box-shadow: 0 2px 16px 0 rgba(80,120,200,0.10);
+}
+
+h1 {
+  font-size: 2.2rem;
+  letter-spacing: -0.03em;
+  margin: 0 0 0.5rem 0;
+}
+
+.desc {
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+  color: #5d677a;
+}
+
+textarea {
+  width: 100%;
+  min-height: 140px;
+  font-size: 1rem;
+  border: 1.5px solid #c9d1e0;
+  border-radius: 9px;
+  padding: 0.6rem;
+  background: #f8fafb;
+  resize: vertical;
+  transition: border 0.2s;
+  margin-bottom: 1.2rem;
+}
+
+textarea:focus {
+  border: 2px solid #5b84e5;
+  outline: none;
+}
+
+button#export {
+  background: linear-gradient(90deg, #4887e0 40%, #6ac7ee 100%);
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 500;
+  border: none;
+  border-radius: 8px;
+  padding: 0.65rem 2.5rem;
+  margin-bottom: 1rem;
+  box-shadow: 0 1px 7px 0 rgba(120,170,220,0.12);
+  cursor: pointer;
+  transition: background 0.25s;
+}
+
+button#export:hover {
+  background: linear-gradient(90deg, #4174b8 10%, #6ac7ee 100%);
+}
+
+#status {
+  margin-top: 0.8rem;
+  font-size: 1rem;
+  min-height: 1.5rem;
+}
+
+footer {
+  margin-top: 1.4rem;
+  font-size: 0.93rem;
+  color: #95a2b8;
+  text-align: center;
+}
+
+footer a {
+  color: #3a7cd7;
+  text-decoration: none;
+}
