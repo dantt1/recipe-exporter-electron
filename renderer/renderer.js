@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Recipe Exporter</title>
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Recipe Exporter</h1>
+      <p class="desc">
+        Paste <b>recipe URLs</b> below (one per line). <br>
+        Click <b>Export</b> to download all recipes as a DOCX file.
+      </p>
+      <textarea id="urls" rows="10" cols="60" placeholder="https://example.com/recipe1..."></textarea>
+      <button id="export">Export Recipes to DOCX</button>
+      <div id="status"></div>
+      <footer>
+        <small>
+          Made with ♥ using Electron | <a href="https://github.com" target="_blank">GitHub</a>
+        </small>
+      </footer>
+    </div>
+    <script src="renderer.js"></script>
+  </body>
+</html>
